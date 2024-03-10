@@ -6,7 +6,7 @@ import Ola from './src/components/Ola/Ola';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Ola nomeProps='Náthan '></Ola>
+      <Ola nomeProps='Ryan '></Ola>
       <IMCCalculator />
       <StatusBar hidden />
     </View>
