@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, TextInput, View, TouchableOpacity, StatusBar } from 'react-native';
 
-export default function App() {
+export default function IMCCalculatorScreen() {
   const [peso, setPeso] = useState<string>('');
   const [altura, setAltura] = useState<string>('');
   const [resultadoIMC, setResultadoIMC] = useState<string>('');
