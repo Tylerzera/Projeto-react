@@ -16,7 +16,7 @@ export default function IMCCalculatorScreen() {
       setResultadoIMC(imc);
       setCategoriaIMC(getCategoriaIMC(parseFloat(imc)));
     } else {
-      alert('Por favor, insira valores vÃ¡lidos para peso e altura.');
+      alert('Por favor, insira valores válidos para peso e altura.');
       setResultadoIMC('');
       setCategoriaIMC('');
     }
@@ -28,7 +28,7 @@ export default function IMCCalculatorScreen() {
     if (imc >= 25 && imc <= 29.9) return 'Sobrepeso';
     if (imc >= 30 && imc <= 34.9) return 'Obesidade grau I';
     if (imc >= 35 && imc <= 39.9) return 'Obesidade grau II';
-    return 'Obesidade grau III ou mÃ³rbida';
+    return 'Obesidade grau III ou mórbida';
   };
 
   return (
